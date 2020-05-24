@@ -81,7 +81,7 @@ h6 {
 
 p {
     font-size: 1.1em;
-    text-align: justify;
+    text-align: left;
 }
 
 p,
@@ -109,6 +109,14 @@ a {
     /* =======text-decoration: none; */
     color: var(--accent-color);
     /* >>>>>>>9d96cde6b1b17e3a6d151bce2b5f852d8b51e429 */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 nav a {
@@ -580,6 +588,46 @@ section#cursisten {
     height: auto;
     grid-template-rows: 5% 95%;
     min-height: 100vh;
+}
+
+.lander-main {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr1fr 1fr;
+}
+
+#lander-date {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    align-self: flex-end;
+    text-align: right;
+}
+
+#lander-logo {
+    justify-self: center;
+    grid-row: 2/4;
+    grid-column: 2/4;
+}
+
+#lander-slogan {
+    grid-row: 4/5;
+    grid-column: 3/5;
+    text-align: left;
+}
+
+#lander-info {
+    grid-row: 5/6;
+    grid-column: 1/5;
+    margin: 30px 0;
+}
+
+#lander-links {
+    display: flex;
+    flex-direction: column;
+    grid-row: 6/7;
+    grid-column: 2/4;
+    color: var(--accent-color);
 }
 
 
