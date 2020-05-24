@@ -447,6 +447,9 @@ button:focus {
     animation-delay: calc(19 * var(--stagger-delay));
 }
 
+
+/* media queries */
+
 @media screen and (max-width: 1500px) {
     .thecard {
         font-size: 0.9rem;
@@ -484,6 +487,13 @@ button:focus {
         grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "t";
         grid-template-rows: repeat(19, 532px);
         grid-template-columns: 400px;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    nav a {
+        display: block;
     }
 }
 
