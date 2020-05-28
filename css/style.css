@@ -193,6 +193,7 @@ button:focus {
 }
 
 #cursistenContainer {
+    padding: 5% 0;
     /* display: none; */
     display: grid;
     grid-area: 2;
