@@ -270,9 +270,12 @@ button:focus {
 }
 
 .tags {
-    height: auto;
-    justify-content: space-around;
-    padding: 2%;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: repeat(2, 30px);
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2%;
+    row-gap: 6%;
 }
 
 .tag {
@@ -280,8 +283,7 @@ button:focus {
     text-align: center;
     background-color: var(--heading-color);
     border-radius: 5px;
-    padding: 2%;
-    margin: 2px;
+    padding: 5px;
 }
 
 .back {
@@ -294,6 +296,17 @@ button:focus {
     text-align: center;
     width: 80%;
     height: 80%;
+    margin: auto 0;
+}
+
+.back-content p {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.p-smaller {
+    font-size: 0.8rem !important;
 }
 
 .sm {
