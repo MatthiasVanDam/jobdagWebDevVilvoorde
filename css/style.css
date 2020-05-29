@@ -193,11 +193,10 @@ button:focus {
 }
 
 #cursistenContainer {
+    padding: 5% 0;
     /* display: none; */
     display: grid;
     grid-area: 2;
-    padding-bottom: 5%;
-    min-height: 95%;
 }
 
 .card {
@@ -247,6 +246,16 @@ button:focus {
     transition: transform 0.6s linear;
 }
 
+.back h2 {
+    font-size: 1.2rem;
+}
+
+@media screen and(max-width:600px) {
+    .back h2 {
+        font-size: 2.2rem;
+    }
+}
+
 .front img {
     height: auto;
     width: 100%;
@@ -262,9 +271,12 @@ button:focus {
 }
 
 .tags {
-    height: auto;
-    justify-content: space-around;
-    padding: 2%;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: repeat(2, 30px);
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2%;
+    row-gap: 6%;
 }
 
 .tag {
@@ -272,8 +284,7 @@ button:focus {
     text-align: center;
     background-color: var(--heading-color);
     border-radius: 5px;
-    padding: 2%;
-    margin: 2px;
+    padding: 5px;
 }
 
 .back {
@@ -286,6 +297,17 @@ button:focus {
     text-align: center;
     width: 80%;
     height: 80%;
+    margin: auto 0;
+}
+
+.back-content p {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.p-smaller {
+    font-size: 0.8rem !important;
 }
 
 .sm {
@@ -328,8 +350,8 @@ button:focus {
     justify-content: center;
     gap: 1.5vw;
     /* Explicit grid */
-    grid-template-areas: "a  b  c  d e" "f g h i j" "k l m n o" "p q r t s";
-    grid-template-rows: repeat(4, 266px);
+    grid-template-areas: "a  b  c  d e" "f g h i j" "k l m n o";
+    grid-template-rows: repeat(3, 266px);
     grid-template-columns: 200px 200px 200px 200px 200px;
     --stagger-delay: 100ms;
 }
@@ -427,26 +449,6 @@ button:focus {
     animation-delay: calc(15 * var(--stagger-delay));
 }
 
-.card:nth-child(16) {
-    grid-area: p;
-    animation-delay: calc(16 * var(--stagger-delay));
-}
-
-.card:nth-child(17) {
-    grid-area: q;
-    animation-delay: calc(17 * var(--stagger-delay));
-}
-
-.card:nth-child(18) {
-    grid-area: r;
-    animation-delay: calc(18 * var(--stagger-delay));
-}
-
-.card:nth-child(19) {
-    grid-area: t;
-    animation-delay: calc(19 * var(--stagger-delay));
-}
-
 
 /* media queries */
 
@@ -458,8 +460,8 @@ button:focus {
 
 @media screen and (max-width: 1200px) {
     .animated-grid {
-        grid-template-areas: "a  b  c" "d e f" "g h i" "j k l" "m n o" "p q r" "s t u";
-        grid-template-rows: repeat(7, 266px);
+        grid-template-areas: "a  b  c" "d e f" "g h i" "j k l" "m n o";
+        grid-template-rows: repeat(5, 266px);
         grid-template-columns: 200px 200px 200px;
     }
     .thecard {
@@ -484,8 +486,8 @@ button:focus {
         font-size: 1rem;
     }
     .animated-grid {
-        grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "t";
-        grid-template-rows: repeat(19, 532px);
+        grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o";
+        grid-template-rows: repeat(15, 532px);
         grid-template-columns: 400px;
     }
     .footer {
@@ -591,14 +593,7 @@ nav {
 }
 
 
-/*Section Matthias*/
-
-section#cursisten {
-    display: grid;
-    height: auto;
-    grid-template-rows: 5% 95%;
-    min-height: 100vh;
-}
+/*Section Lander*/
 
 .lander-main {
     display: grid;
