@@ -226,6 +226,11 @@ button:focus {
   background-repeat: no-repeat;
 }
 
+.card {
+    animation: cardEntrance 700ms ease-out;
+    animation-fill-mode: backwards;
+}
+
 .animated-grid img {
   height: auto;
   width: auto;
@@ -293,11 +298,12 @@ button:focus {
 }
 
 .tag {
-  color: aliceblue;
-  text-align: center;
-  background-color: var(--heading-color);
-  border-radius: 5px;
-  padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    background-color: var(--heading-color);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.9rem;
 }
 
 .back {
@@ -311,6 +317,10 @@ button:focus {
   width: 80%;
   height: 80%;
   margin: auto 0;
+}
+
+.back h2 {
+    font-size: 1.2rem;
 }
 
 .back-content p {
@@ -328,20 +338,21 @@ button:focus {
 }
 
 .sm a {
-  text-decoration: none;
-  display: inline-flex;
-  width: 40px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  color: #2c3e50;
-  font-size: 18px;
-  transition: 0.4s;
-  border-radius: 50%;
+    text-decoration: none;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #2c3e50;
+    font-size: 18px;
+    transition: 0.4s;
+    border-radius: 50%;
 }
 
 #cursisten h1 {
-  text-align: center;
+    text-align: center;
+    padding-bottom: 5%;
 }
 
 .sm a:hover {
@@ -370,21 +381,14 @@ button:focus {
 }
 
 @keyframes cardEntrance {
-  from {
-    opacity: 0;
-    transform: scale(0.3);
-    filter: hue-rotate(180deg);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-    filter: hue-rotate(0deg);
-  }
-}
-
-.card {
-  animation: cardEntrance 700ms ease-out;
-  animation-fill-mode: backwards;
+    from {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .card:nth-child(1) {
@@ -485,30 +489,40 @@ button:focus {
   }
 }
 
-@media screen and (max-width: 800px) {
-  .thecard {
-    font-size: 1rem;
-    justify-content: space-evenly;
-  }
-}
-
 @media screen and (max-width: 600px) {
-  button {
-    width: 80%;
-    font-size: 1rem;
-  }
-  .animated-grid {
-    grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o";
-    grid-template-rows: repeat(15, 532px);
-    grid-template-columns: 400px;
-  }
-  .footer {
-    display: block;
-    text-align: center;
-  }
-  nav a {
-    display: block;
-  }
+    button {
+        width: 80%;
+        font-size: 1rem;
+    }
+    .animated-grid {
+        grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o";
+        grid-template-rows: repeat(15, 532px);
+        grid-template-columns: 400px;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    nav a {
+        display: block;
+    }
+    .back h2 {
+        font-size: 2rem;
+    }
+    .back-content p {
+        padding: 70px 0;
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+    .p-smaller {
+        font-size: 1.5rem !important;
+    }
+    .sm a {
+        margin-right: 15px;
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 375px) {
