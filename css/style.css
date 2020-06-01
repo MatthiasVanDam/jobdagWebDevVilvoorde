@@ -152,6 +152,70 @@ header .logo {
   margin: auto;
   grid-row: 0 1;
 }
+/*NAV COLLAPSE*/
+
+@media screen and (max-width: 768px) {
+  .line {
+    width: 30px;
+    height: 3px;
+    background: var(--accent-color);
+    margin: 5px;
+  }
+  header {
+    position: relative;
+  }
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/*SectionIndicater*/
+.navIcon {
+  width: 100%;
+  height: auto;
+}
+#indContainer {
+  z-index: 3;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 40%;
+  left: 20px;
+  border: 3px solid var(--fnt-color);
+  border-radius: 10px;
+}
+
+#indContainer a {
+  padding: 5px;
+
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: var(--input-color);
+  cursor: pointer;
+}
+#indContainer a:first-child {
+  border-radius: 7px 7px 0 0;
+}
+#indContainer a:last-child {
+  border-radius: 0 0 7px 7px;
+}
+
+#indContainer a:hover {
+  background-color: var(--accent-color);
+}
 
 #landerImg {
   width: 70%;
@@ -614,7 +678,10 @@ section:nth-child(even) {
 }
 
 /*Section Lander*/
-
+.landerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .lander-main {
   display: grid;
   gap: 20px;
@@ -705,11 +772,3 @@ footer {
   margin-bottom: 0.5em;
   font-size: 1.8em;
 }
-
-/*Section Matthias*/
-
-/* section {
-    <<<<<<< HEAD height: 100vh;
-    =======height: 100vh;
-    >>>>>>>9d96cde6b1b17e3a6d151bce2b5f852d8b51e429
-} */
