@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/7b2dc1503a.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/7b2dc1503a.js" crossorigin="anonymous"></script>
 
-    <meta
-      name="description"
-      content="Jobday event for web dev companies to find new talentgit "
-    />
+    <meta name="description" content="Jobday event for web dev companies to find new talentgit " />
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- Favicon -->
@@ -28,782 +20,666 @@
     <!-- End Favicon -->
 
     <title>Web Dev Day</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <!--WRAPPER-->
     <div class="main-wrapper">
-      <!--HEADER-->
-      <header>
-        <img class="logo" src="./img/logo_jobdag_rood_date.png" alt="logo" />
-        <div id="themeContainer" class="d-flex">
-          <img
-            src="./img/sun.svg"
-            id="sunIcon"
-            class="icon selectedThemeIcon"
-          /><img src="./img/moon.svg" id="moonIcon" class="icon" />
-        </div>
-        <!--NAV-->
-        <nav id="main-nav" class="d-flex">
-          <a href="#home">Home</a>
-          <a href="#cursisten">Cursisten</a>
-          <a href="#programma">Programma</a>
-          <a href="#form">Inschrijven</a>
-        </nav>
-      </header>
-
-      <!--MAIN-->
-      <main>
-        <!--LANDER-->
-        <section id="lander">
-          <div class="section-wrap">
-            <img id="landerImg" src="./img/startup.svg" alt="startup.svg" />
-            <div class="lander-main">
-              <p id="lander-info">
-                Op 18 Juni aanstaande organiseren de cursisten van webopleiding
-                Vilvoorde een JobDag. Omwille van de Corona-crisis zal deze
-                volledig digitaal verlopen.
-                <br />
-                <br />
-                Webdevelopment-Vilvoorde is een praktijkgerichte opleiding van 6
-                maanden die georganiseerd wordt door
-                <a href="https://www.obelisk.be" target="_blank">Obelisk</a> en
-                <a href="https://www.vdab.be" target="_blank">VDAB</a> . Er
-                wordt gestart met HTML, CSS en JavaScript. Nadien wordt hierop
-                verder gebouwd. PHP, Bootstrap, jQuery, Scrum, MySQL, Wordpress
-                behoren tot het aanbod. Deelnemers aan de cursus hebben een
-                divers profiel en werden niet geacht enige voorkennis te hebben
-                van IT of webdevelopment. Wel werd gepeild naar hun motivatie en
-                leervermogen.
-                <br />
-                <br />Bent u op zoek naar een nieuwe web developer of bent u dat
-                in de nabije toekomst van plan? Dan is deze Jobdag de ideale
-                gelegenheid om jouw nieuwe werknemer(s) te ontmoeten.
-              </p>
+        <!--HEADER-->
+        <header>
+            <img class="logo" src="./img/logo_jobdag_rood_date.png" alt="logo" />
+            <div id="themeContainer" class="d-flex">
+                <img src="./img/sun.svg" id="sunIcon" class="icon selectedThemeIcon" /><img src="./img/moon.svg" id="moonIcon" class="icon" />
             </div>
-          </div>
-        </section>
-        <!--CURSISTEN-->
-        <section id="cursisten">
-          <!-- <button id="cursBtn">Bekijk Onze Cursisten Hier!</button> -->
-          <div id="cursistenContainer">
-            <h1>Cursisten</h1>
-            <div class="animated-grid">
-              <!--Hakim-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/hakim.webp" type="image/webp" />
-                      <source srcset="./img/hakim.png" type="image/png" />
-                      <img src="./img/hakim.png" alt="Hakim foto" />
-                    </picture>
-
-                    <div class="tags d-flex">
-                      <span class="tag">HTML 5</span>
-                      <span class="tag">CSS 3</span>
-                      <span class="tag">Javascript</span>
-                      <span class="tag">Bootstrap</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Abdelhakim Wahyiane</h2>
-
-                      <p>
-                        "The strength lies in creative thinking, there is a
-                        solution for every problem!"
-                      </p>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/hakimwahyiane/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/Hakimweb"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:wahyianehakim@hotmail.com"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Andrea-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/andrea.webp" type="image/webp" />
-                      <source srcset="./img/Andrea.png" type="image/png" />
-                      <img src="./img/Andrea.png" alt="Andrea foto" />
-                    </picture>
-
-                    <div class="tags d-flex">
-                      <span class="tag">Javascript</span>
-                      <span class="tag">CSS</span>
-                      <span class="tag">HTML</span>
-                      <span class="tag">WordPress</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Andrea Ravalli</h2>
-
-                      <p>
-                        “if (sad()=== true){<br />
-                        sad().stop(); <br />
-                        beAwesome(); }“
-                      </p>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/andrea-ravalli/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/Whitedead1850"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:Andrea.ravalli@hotmail.com"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Arno-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front d-flex">
-                    <picture>
-                      <source srcset="./img/arno.webp" type="image/webp" />
-                      <source srcset="./img/arno.png" type="image/png" />
-                      <img src="./img/arno.png" alt="Arno foto" />
-                    </picture>
-
-                    <div class="tags d-flex">
-                      <span class="tag">Javascript</span>
-                      <span class="tag">SEO</span>
-                      <span class="tag">Studious</span>
-                      <span class="tag">Creative</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Arno De&nbsp;Koninck</h2>
-                      <p>
-                        “Make it work, make it right, make it fast.” – Kent Beck
-                      </p>
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/arno-de-koninck/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/ArnoDeKoninck"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:arno-dekoninck@hotmail.com"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Azzam Daaboul-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/azzam.webp" type="image/webp" />
-                      <source srcset="./img/azzam.png" type="image/png" />
-                      <img src="./img/azzam.png" alt="Azzam foto" />
-                    </picture>
-
-                    <div class="tags d-flex">
-                      <span class="tag">HTML</span>
-                      <span class="tag">CSS</span>
-                      <span class="tag">Bootstrap</span>
-                      <span class="tag">WordPress</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Azzam Daaboul</h2>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/azzamdaaboul/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/AzzamDaaboul/WEBO-Vilvoorde"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:azzamdaaboul@gmail.com"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Charlotte Lindberg-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/charlotte.webp" type="image/webp" />
-                      <source srcset="./img/charlotte.png" type="image/png" />
-                      <img src="./img/charlotte.png" alt="Charlotte foto" />
-                    </picture>
-
-                    <div class="tags d-flex">
-                      <span class="tag">Javascript</span>
-                      <span class="tag">CSS</span>
-                      <span class="tag">WordPress</span>
-                      <span class="tag">Bootstrap</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Charlotte Lindberg</h2>
-
-                      <p>“Do or do not. There is no try.”</p>
-
-                      <div class="sm">
-                        <!--kon ik ni vinden, iemand vul dit in pls ty ^^ -arno -->
-                        <a href="#" target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/charlottelindberg"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:charlottelindberg@outlook.com"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Danny Van EeckHoutte-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/danny.webp" type="image/webp" />
-                      <source srcset="./img/danny.png" type="image/png" />
-                      <img src="./img/danny.png" alt="Danny foto" />
-                    </picture>
-
-                    <div class="tags d-flex">
-                      <span class="tag">HTML</span>
-                      <span class="tag">CSS</span>
-                      <span class="tag">Bootstrap</span>
-                      <span class="tag">Design</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Danny Van&nbsp;EeckHoutte</h2>
-
-                      <p>
-                        “It doesn't stop being magic just because you find out
-                        how it’s done.”
-                      </p>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/dannyvaneeckhoutte/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="#"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:danny.vaneeckhoutte@gmail.com"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Hossein Mahmodipour-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/hossein.webp" type="image/webp" />
-                      <source srcset="./img/hossein.png" type="image/png" />
-                      <img src="./img/hossein.png" alt="Hossein foto" />
-                    </picture>
-
-                    <div class="tags d-flex">
-                      <span class="tag">HTML</span>
-                      <span class="tag">CSS</span>
-                      <span class="tag">Bootstrap</span>
-                      <span class="tag">WordPress</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Hossein Mahmodipour</h2>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/hossimhr/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/hossimhr"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:Hossi.mhr@gmail.com"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Laura Beerden-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/laura.webp" type="image/webp" />
-                      <source srcset="./img/laura.png" type="image/png" />
-                      <img src="./img/laura.png" alt="Laura foto" />
-                    </picture>
-
-                    <div class="tags d-flex">
-                      <span class="tag">HTML</span>
-                      <span class="tag">CSS</span>
-                      <span class="tag">Empatisch</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Laura Beerden</h2>
-                      <br />
-
-                      <p>“don’t be afraid to get creative”</p>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/laura-beerden-84ab69173/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/BLaura1995"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:Beerdenlaura@gmail.com"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Matthias Van Dam-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/matthias.webp" type="image/webp" />
-                      <source srcset="./img/matthias.png" type="image/png" />
-                      <img src="./img/matthias.png" alt="Matthias foto" />
-                    </picture>
-
-                    <div class="tags d-flex">
-                      <span class="tag">HTML</span>
-                      <span class="tag">CSS</span>
-                      <span class="tag">Bootstrap</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Matthias Van Dam</h2>
-
-                      <p>“Good code, like wine, takes Time”</p>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/matthias-van-dam-b997b7178/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/MatthiasVanDam"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:matthias.1991@live.be"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Maurits Wouters-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/maurits.webp" type="image/webp" />
-                      <source srcset="./img/maurits.png" type="image/png" />
-                      <img src="./img/maurits.png" alt="Maurits foto" />
-                    </picture>
-
-                    <div class="tags d-flex">
-                      <span class="tag">Bootstrap</span>
-                      <span class="tag">Adobe CC</span>
-                      <span class="tag tag-wide">Video Editing</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Maurits Wouters</h2>
-
-                      <p>Between video-editing and webdevelopment</p>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/maurits-wouters/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/MauritsWouters"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:wouters_maurits@outlook.be"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Michael Bayens-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/michaelb.webp" type="image/webp" />
-                      <source srcset="./img/michaelb.png" type="image/png" />
-                      <img src="./img/michaelb.png" alt="MichaelB foto" />
-                    </picture>
-
-                    <div class="tags d-flex">
-                      <span class="tag">HTML</span>
-                      <span class="tag">CSS</span>
-                      <span class="tag tag-wide">Eye for detail</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Michael Bayens</h2>
-
-                      <p>
-                        ”Nothing is ever perfect. It is what you make of it.”
-                      </p>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/michael-baeyens-93501a1a3/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/MichaelVilvoorde"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:baeyensmichael@hotmail.com"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Michael VL-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/michaelvl.webp" type="image/webp" />
-                      <source srcset="./img/michaelvl.png" type="image/png" />
-                      <img src="./img/michaelvl.png" alt="MichaelVL foto" />
-                    </picture>
-                    <div class="tags d-flex">
-                      <span class="tag">HTML</span>
-                      <span class="tag">CSS</span>
-                      <span class="tag">Bootstrap</span>
-                      <span class="tag">Wordpress</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Michael Van&nbsp;Laer</h2>
-
-                      <p class="p-smaller">
-                        “Perfection is achieved, not when there is nothing more
-                        to add, but when there is nothing left to take away”
-                      </p>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/micha%C3%ABl-van-laer-96b3441a4/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/Fyera"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:michaelvanlaer@gmail.com"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Sandy-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/sandy.webp" type="image/webp" />
-                      <source srcset="./img/sandy.png" type="image/png" />
-                      <img src="./img/sandy.png" alt="Sandy foto" />
-                    </picture>
-                    <div class="tags d-flex">
-                      <span class="tag">Bootstrap</span>
-                      <span class="tag">Adobe CC</span>
-                      <span class="tag">Leergierig</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Sandy Ielegems</h2>
-
-                      <p>"I was created to create."</p>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/sandy-ielegems-1544a2139/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/sandyielegems"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:sandy.ielegems@outlook.com "
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Tom Gielis-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/tom.webp" type="image/webp" />
-                      <source srcset="./img/tom.png" type="image/png" />
-                      <img src="./img/tom.png" alt="Tom foto" />
-                    </picture>
-                    <div class="tags d-flex">
-                      <span class="tag">HTML</span>
-                      <span class="tag">CSS</span>
-                      <span class="tag">Empatisch</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Tom Gielis</h2>
-
-                      <p>“Believe you can and you’re halfway there”</p>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/tomgielis/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/gielito"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:tomgielis@gmail.com"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Wout Troch-->
-              <div class="card">
-                <div class="thecard middle">
-                  <div class="front">
-                    <picture>
-                      <source srcset="./img/wout.webp" type="image/webp" />
-                      <source srcset="./img/wout.png" type="image/png" />
-                      <img src="./img/wout.png" alt="MichaelB foto" />
-                    </picture>
-                    <div class="tags d-flex">
-                      <span class="tag">HTML</span>
-                      <span class="tag">CSS</span>
-                      <span class="tag">Bootstrap</span>
-                      <span class="tag">WordPress</span>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="back-content middle">
-                      <h2>Wout Troch</h2>
-
-                      <div class="sm">
-                        <a
-                          href="https://www.linkedin.com/in/wout-r-troch/"
-                          target="_blank"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/WOUTRT"
-                          ><i class="fab fa-github" target="_blank"></i
-                        ></a>
-                        <a href="mailto:Wout.troch@live.be"
-                          ><i class="fas fa-envelope" target="_blank"></i
-                        ></a>
-                        <a href="#" target="_blank">CV</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
-          </div>
-        </section>
+            <!--NAV-->
+            <nav id="main-nav" class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#cursisten">Cursisten</a>
+                <a href="#programma">Programma</a>
+                <a href="#form">Inschrijven</a>
+            </nav>
 
-        <!--PROG-->
-        <section id="programma">
-          <div class="section-wrap">
-            <h1>Programma & Dagverloop</h1>
-            <br />
-            <h5>Wat mag je verwachten?</h5>
-            <br />
-            <ul>
-              <li>
-                De planning wordt voor jou gemaakt <br />(van zodra alle
-                geïnteresseerde bedrijven gekend zijn)
-              </li>
-              <br />
-              <li>
-                Je gebruikt een platform naar voorkeur / er worden Zoom meetings
-                aangemaakt voor jou
-              </li>
-              <br />
-              <li>
-                Je ontvangt alle CV's een aantal dagen vooraf samen met een
-                woordje uitleg over de opleiding
-              </li>
-              <br />
-              <li>Alle bedrijven ontmoeten alle cursisten</li>
-            </ul>
-          </div>
-        </section>
-        <!--FORM-->
-        <section id="form">
-          <div class="section-wrap">
-            <h1>Inschrijving</h1>
-            <form
-              action="https://formspree.io/opleiding@obelisk.be"
-              method="POST"
-            >
-              <label for="bedrijf">Bedrijf*</label>
-              <input type="text" name="bedrijf" id="bedrijf" required />
-              <label for="name">Contactpersoon *</label>
-              <input
-                type="text"
-                name="contactpersoon"
-                id="contactpersoon"
-                required
-              />
-              <label for="website">Website</label>
-              <input
-                type="url"
-                name="website"
-                id="website"
-                placeholder="https://www.mijnwebsite.be"
-              />
-              <label for="email">e-mail *</label>
-              <input type="email" name="email" id="email" required />
-              <label for="tel">GSM / Telefoon</label>
-              <input type="tel" name="tel" id="tel" />
-              <label for="message">Bericht</label>
-              <textarea
-                name="message"
-                id="message"
-                cols="30"
-                rows="5"
-              ></textarea>
-              <small>* Verplichte velden</small>
-              <input
-                type="submit"
-                value="Verzenden"
-                id="submit"
-                class="submit"
-              />
-            </form>
-          </div>
-        </section>
-      </main>
-      <!--FOOTER-->
-      <footer class="footer">
-        <div class="footer-left">
-          <div class="devteam-footer">
-            <h6>Het Webdev Team Vilvoorde</h6>
-            <p>
-              <a
-                href="https://www.linkedin.com/in/hakimwahyiane/"
-                target="_blank"
-                >Abdelhakim Wahyiane</a
+        </header>
+
+        <!--MAIN-->
+        <main>
+            <!--LANDER-->
+            <section id="lander">
+                <div class="section-wrap">
+                    <img id="landerImg" src="./img/startup.svg" alt="startup.svg" />
+                    <div class="lander-main">
+                        <p id="lander-info">
+                            Op 18 Juni aanstaande organiseren de cursisten van webopleiding Vilvoorde een JobDag. Omwille van de Corona-crisis zal deze volledig digitaal verlopen.
+                            <br />
+                            <br /> Webdevelopment-Vilvoorde is een praktijkgerichte opleiding van 6 maanden die georganiseerd wordt door
+                            <a href="https://www.obelisk.be" target="_blank">Obelisk</a> en
+                            <a href="https://www.vdab.be" target="_blank">VDAB</a> . Er wordt gestart met HTML, CSS en JavaScript. Nadien wordt hierop verder gebouwd. PHP, Bootstrap, jQuery, Scrum, MySQL, Wordpress behoren tot het aanbod. Deelnemers aan
+                            de cursus hebben een divers profiel en werden niet geacht enige voorkennis te hebben van IT of webdevelopment. Wel werd gepeild naar hun motivatie en leervermogen.
+                            <br />
+                            <br />Bent u op zoek naar een nieuwe web developer of bent u dat in de nabije toekomst van plan? Dan is deze Jobdag de ideale gelegenheid om jouw nieuwe werknemer(s) te ontmoeten.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--CURSISTEN-->
+            <section id="cursisten">
+                <!-- <button id="cursBtn">Bekijk Onze Cursisten Hier!</button> -->
+                <div id="cursistenContainer">
+                    <h1>Cursisten</h1>
+                    <div class="animated-grid">
+                        <!--Hakim-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/hakim.webp" type="image/webp" />
+                                        <source srcset="./img/hakim.png" type="image/png" />
+                                        <img src="./img/hakim.png" alt="Hakim foto" />
+                                    </picture>
+
+                                    <div class="tags d-flex">
+                                        <span class="tag">HTML 5</span>
+                                        <span class="tag">CSS 3</span>
+                                        <span class="tag">Javascript</span>
+                                        <span class="tag">Bootstrap</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Abdelhakim Wahyiane</h2>
+
+                                        <p>
+                                            "The strength lies in creative thinking, there is a solution for every problem!"
+                                        </p>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/hakimwahyiane/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/Hakimweb"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:wahyianehakim@hotmail.com"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Andrea-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/andrea.webp" type="image/webp" />
+                                        <source srcset="./img/Andrea.png" type="image/png" />
+                                        <img src="./img/Andrea.png" alt="Andrea foto" />
+                                    </picture>
+
+                                    <div class="tags d-flex">
+                                        <span class="tag">Javascript</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">WordPress</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Andrea Ravalli</h2>
+
+                                        <p>
+                                            “if (sad()=== true){<br /> sad().stop(); <br /> beAwesome(); }“
+                                        </p>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/andrea-ravalli/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/Whitedead1850"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:Andrea.ravalli@hotmail.com"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Arno-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front d-flex">
+                                    <picture>
+                                        <source srcset="./img/arno.webp" type="image/webp" />
+                                        <source srcset="./img/arno.png" type="image/png" />
+                                        <img src="./img/arno.png" alt="Arno foto" />
+                                    </picture>
+
+                                    <div class="tags d-flex">
+                                        <span class="tag">Javascript</span>
+                                        <span class="tag">SEO</span>
+                                        <span class="tag">Studious</span>
+                                        <span class="tag">Creative</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Arno De&nbsp;Koninck</h2>
+                                        <p>
+                                            “Make it work, make it right, make it fast.” – Kent Beck
+                                        </p>
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/arno-de-koninck/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/ArnoDeKoninck"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:arno-dekoninck@hotmail.com"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Azzam Daaboul-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/azzam.webp" type="image/webp" />
+                                        <source srcset="./img/azzam.png" type="image/png" />
+                                        <img src="./img/azzam.png" alt="Azzam foto" />
+                                    </picture>
+
+                                    <div class="tags d-flex">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Bootstrap</span>
+                                        <span class="tag">WordPress</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Azzam Daaboul</h2>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/azzamdaaboul/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/AzzamDaaboul/WEBO-Vilvoorde"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:azzamdaaboul@gmail.com"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Charlotte Lindberg-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/charlotte.webp" type="image/webp" />
+                                        <source srcset="./img/charlotte.png" type="image/png" />
+                                        <img src="./img/charlotte.png" alt="Charlotte foto" />
+                                    </picture>
+
+                                    <div class="tags d-flex">
+                                        <span class="tag">Javascript</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">WordPress</span>
+                                        <span class="tag">Bootstrap</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Charlotte Lindberg</h2>
+
+                                        <p>“Do or do not. There is no try.”</p>
+
+                                        <div class="sm">
+                                            <!--kon ik ni vinden, iemand vul dit in pls ty ^^ -arno -->
+                                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/charlottelindberg"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:charlottelindberg@outlook.com"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Danny Van EeckHoutte-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/danny.webp" type="image/webp" />
+                                        <source srcset="./img/danny.png" type="image/png" />
+                                        <img src="./img/danny.png" alt="Danny foto" />
+                                    </picture>
+
+                                    <div class="tags d-flex">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Bootstrap</span>
+                                        <span class="tag">Design</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Danny Van&nbsp;EeckHoutte</h2>
+
+                                        <p>
+                                            “It doesn't stop being magic just because you find out how it’s done.”
+                                        </p>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/dannyvaneeckhoutte/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="#"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:danny.vaneeckhoutte@gmail.com"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Hossein Mahmodipour-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/hossein.webp" type="image/webp" />
+                                        <source srcset="./img/hossein.png" type="image/png" />
+                                        <img src="./img/hossein.png" alt="Hossein foto" />
+                                    </picture>
+
+                                    <div class="tags d-flex">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Bootstrap</span>
+                                        <span class="tag">WordPress</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Hossein Mahmodipour</h2>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/hossimhr/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/hossimhr"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:Hossi.mhr@gmail.com"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Laura Beerden-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/laura.webp" type="image/webp" />
+                                        <source srcset="./img/laura.png" type="image/png" />
+                                        <img src="./img/laura.png" alt="Laura foto" />
+                                    </picture>
+
+                                    <div class="tags d-flex">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Empatisch</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Laura Beerden</h2>
+                                        <br />
+
+                                        <p>“don’t be afraid to get creative”</p>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/laura-beerden-84ab69173/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/BLaura1995"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:Beerdenlaura@gmail.com"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Matthias Van Dam-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/matthias.webp" type="image/webp" />
+                                        <source srcset="./img/matthias.png" type="image/png" />
+                                        <img src="./img/matthias.png" alt="Matthias foto" />
+                                    </picture>
+
+                                    <div class="tags d-flex">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Bootstrap</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Matthias Van Dam</h2>
+
+                                        <p>“Good code, like wine, takes Time”</p>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/matthias-van-dam-b997b7178/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/MatthiasVanDam"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:matthias.1991@live.be"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Maurits Wouters-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/maurits.webp" type="image/webp" />
+                                        <source srcset="./img/maurits.png" type="image/png" />
+                                        <img src="./img/maurits.png" alt="Maurits foto" />
+                                    </picture>
+
+                                    <div class="tags d-flex">
+                                        <span class="tag">Bootstrap</span>
+                                        <span class="tag">Adobe CC</span>
+                                        <span class="tag tag-wide">Video Editing</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Maurits Wouters</h2>
+
+                                        <p>Between video-editing and webdevelopment</p>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/maurits-wouters/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/MauritsWouters"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:wouters_maurits@outlook.be"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Michael Bayens-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/michaelb.webp" type="image/webp" />
+                                        <source srcset="./img/michaelb.png" type="image/png" />
+                                        <img src="./img/michaelb.png" alt="MichaelB foto" />
+                                    </picture>
+
+                                    <div class="tags d-flex">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag tag-wide">Eye for detail</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Michael Bayens</h2>
+
+                                        <p>
+                                            ”Nothing is ever perfect. It is what you make of it.”
+                                        </p>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/michael-baeyens-93501a1a3/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/MichaelVilvoorde"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:baeyensmichael@hotmail.com"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Michael VL-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/michaelvl.webp" type="image/webp" />
+                                        <source srcset="./img/michaelvl.png" type="image/png" />
+                                        <img src="./img/michaelvl.png" alt="MichaelVL foto" />
+                                    </picture>
+                                    <div class="tags d-flex">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Bootstrap</span>
+                                        <span class="tag">Wordpress</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Michael Van&nbsp;Laer</h2>
+
+                                        <p class="p-smaller">
+                                            “Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away”
+                                        </p>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/micha%C3%ABl-van-laer-96b3441a4/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/Fyera"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:michaelvanlaer@gmail.com"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Sandy-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/sandy.webp" type="image/webp" />
+                                        <source srcset="./img/sandy.png" type="image/png" />
+                                        <img src="./img/sandy.png" alt="Sandy foto" />
+                                    </picture>
+                                    <div class="tags d-flex">
+                                        <span class="tag">Bootstrap</span>
+                                        <span class="tag">Adobe CC</span>
+                                        <span class="tag">Leergierig</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Sandy Ielegems</h2>
+
+                                        <p>"I was created to create."</p>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/sandy-ielegems-1544a2139/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/sandyielegems"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:sandy.ielegems@outlook.com "><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Tom Gielis-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/tom.webp" type="image/webp" />
+                                        <source srcset="./img/tom.png" type="image/png" />
+                                        <img src="./img/tom.png" alt="Tom foto" />
+                                    </picture>
+                                    <div class="tags d-flex">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Empatisch</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Tom Gielis</h2>
+
+                                        <p>“Believe you can and you’re halfway there”</p>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/tomgielis/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/gielito"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:tomgielis@gmail.com"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Wout Troch-->
+                        <div class="card">
+                            <div class="thecard middle">
+                                <div class="front">
+                                    <picture>
+                                        <source srcset="./img/wout.webp" type="image/webp" />
+                                        <source srcset="./img/wout.png" type="image/png" />
+                                        <img src="./img/wout.png" alt="MichaelB foto" />
+                                    </picture>
+                                    <div class="tags d-flex">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Bootstrap</span>
+                                        <span class="tag">WordPress</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>Wout Troch</h2>
+
+                                        <div class="sm">
+                                            <a href="https://www.linkedin.com/in/wout-r-troch/" target="_blank"><i class="fab fa-linkedin"></i
+                        ></a>
+                                            <a href="https://github.com/WOUTRT"><i class="fab fa-github" target="_blank"></i
+                        ></a>
+                                            <a href="mailto:Wout.troch@live.be"><i class="fas fa-envelope" target="_blank"></i
+                        ></a>
+                                            <a href="#" target="_blank">CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--PROG-->
+            <section id="programma">
+                <div class="section-wrap">
+                    <h1>Programma & Dagverloop</h1>
+                    <br />
+                    <h5>Wat mag je verwachten?</h5>
+                    <br />
+                    <ul>
+                        <li>
+                            De planning wordt voor jou gemaakt <br />(van zodra alle geïnteresseerde bedrijven gekend zijn)
+                        </li>
+                        <br />
+                        <li>
+                            Je gebruikt een platform naar voorkeur / er worden Zoom meetings aangemaakt voor jou
+                        </li>
+                        <br />
+                        <li>
+                            Je ontvangt alle CV's een aantal dagen vooraf samen met een woordje uitleg over de opleiding
+                        </li>
+                        <br />
+                        <li>Alle bedrijven ontmoeten alle cursisten</li>
+                    </ul>
+                </div>
+            </section>
+            <!--FORM-->
+            <section id="form">
+                <div class="section-wrap">
+                    <h1>Inschrijving</h1>
+                    <form action="https://formspree.io/opleiding@obelisk.be" method="POST">
+                        <label for="bedrijf">Bedrijf*</label>
+                        <input type="text" name="bedrijf" id="bedrijf" required />
+                        <label for="name">Contactpersoon *</label>
+                        <input type="text" name="contactpersoon" id="contactpersoon" required />
+                        <label for="website">Website</label>
+                        <input type="url" name="website" id="website" placeholder="https://www.mijnwebsite.be" />
+                        <label for="email">e-mail *</label>
+                        <input type="email" name="email" id="email" required />
+                        <label for="tel">GSM / Telefoon</label>
+                        <input type="tel" name="tel" id="tel" />
+                        <label for="message">Bericht</label>
+                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                        <small>* Verplichte velden</small>
+                        <input type="submit" value="Verzenden" id="submit" class="submit" />
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="footer-left">
+                <div class="devteam-footer">
+                    <h6>Het Webdev Team Vilvoorde</h6>
+                    <p>
+                        <a href="https://www.linkedin.com/in/hakimwahyiane/" target="_blank">Abdelhakim Wahyiane</a
               >
               /
               <a
@@ -892,21 +768,19 @@
             <a href="https://www.vdab.be" target="_blank"
               ><img src="./img/logo_VDAB .png" alt="logo vdab"
             /></a>
-            <a href="https://www.obelisk.be" target="_blank"
-              ><img src="./img/logo_obelisk.png" alt="logo obelisk"
-            /></a>
-            <a href="https://www.multimedi.be" target="_blank"
-              ><img src="./img/logo_multimedi.png" alt="logo multimedi"
-            /></a>
-          </div>
-          <div class="copyright">
-            <p>Code & design © 2020 Webdevelopers Vilvoorde</p>
-          </div>
-        </div>
-      </footer>
+                        <a href="https://www.obelisk.be" target="_blank"><img src="./img/logo_obelisk.png" alt="logo obelisk" /></a>
+                        <a href="https://www.multimedi.be" target="_blank"><img src="./img/logo_multimedi.png" alt="logo multimedi" /></a>
+                </div>
+                <div class="copyright">
+                    <p>Code & design © 2020 Webdevelopers Vilvoorde</p>
+                </div>
+            </div>
+        </footer>
     </div>
-  </body>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-  <script src="app.js"></script>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script src="app.js"></script>
+
 </html>
