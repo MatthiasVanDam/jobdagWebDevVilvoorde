@@ -51,3 +51,21 @@ const navLinks = document.querySelector(".nav-links");
 hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("open");
 });
+
+
+//Scroll indicator Fade  door Matthias
+$(document).ready(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+            $('#indContainer').fadeIn();
+        } else {
+            $('#indContainer').fadeOut();
+        }
+    });
+    $('#scroll').click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+});
