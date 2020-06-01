@@ -5,7 +5,7 @@
         box-sizing: border-box;
     }
     
-    :root {
+     :root {
         --bg-color: #e6e6e6;
         --secondary-color: #d3d3d3;
         --accent-color: #d8535f;
@@ -155,7 +155,7 @@
         .line {
             width: 30px;
             height: 3px;
-            background: white;
+            background: var(--accent-color);
             margin: 5px;
         }
         header {
@@ -164,7 +164,7 @@
         .hamburger {
             position: absolute;
             cursor: pointer;
-            right: 5%;
+            right: 10px;
             top: 50%;
             transform: translate(-5%, -50%);
             z-index: 2;
@@ -192,11 +192,15 @@
     
     #themeContainer {
         position: absolute;
-        right: 5%;
-        top: 2%;
-        width: 10%;
-        height: 50px;
+        right: 10px;
+        top: 10px;
         justify-content: space-evenly;
+    }
+    
+    #themeContainer img {
+        height: 40px;
+        width: 40px;
+        margin-left: 15px;
     }
     
     .d-flex {
