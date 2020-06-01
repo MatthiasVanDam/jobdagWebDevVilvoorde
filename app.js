@@ -25,7 +25,7 @@ $("#sunIcon, #moonIcon").on("click", function() {
 });
 
 //Smooth Scrolling by Danny
-$("#main-nav a").on("click", function(e) {
+$("#main-nav a, #indContainer a").on("click", function(e) {
     if (this.hash !== "") {
         event.preventDefault();
 
