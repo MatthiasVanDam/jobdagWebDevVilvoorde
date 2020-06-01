@@ -10,7 +10,8 @@
   --secondary-color: #d3d3d3;
   --accent-color: #d8535f;
   --heading-color: #333;
-  --fnt-color: var(--heading-color);
+  --fnt-color: #333;
+  --input-color: #555555;
   --cardWidth: 20%;
 }
 
@@ -19,7 +20,8 @@
   --secondary-color: #1d1d1d;
   --accent-color: #8f8f8f;
   --heading-color: #1d1d1d;
-  --fnt-color: var(--accent-color);
+  --fnt-color: #a8a8a8;
+  --input-color: #a3a3a3;
 }
 
 body {
@@ -112,7 +114,6 @@ header {
   color: var(--bg-color);
   padding: 2rem 2rem 1rem;
   gap: 1rem;
-  display: grid;
   grid-template-rows: 80% 20%;
 }
 
@@ -558,7 +559,7 @@ form {
 form > label {
   font-family: "Fira Sans", sans-serif;
   font-weight: 500;
-  color: var(--heading-color);
+  color: var(--fnt-color);
   text-align: left;
 }
 
@@ -570,7 +571,6 @@ textarea {
   padding: 0.5rem;
   border-style: none;
   border-radius: 10px;
-  background-color: var(--heading-color);
   color: var(--bg-color);
   opacity: 0.8;
 }
@@ -583,7 +583,7 @@ fieldset.checkboxes {
 
 .submit {
   font-family: "Fira Code", monospace;
-  background-color: var(--heading-color);
+  background-color: var(--fnt-color);
   opacity: 1;
   color: var(--bg-color);
   padding: 8px 45px;
