@@ -1,6 +1,6 @@
 //Service worker functionality door Arno De Koninck
 const cacheName = "v1";
-const cacheAssets = ["index.html", "css/style.css", "app.js"];
+const cacheAssets = ["index.html", "./css/style.css", "./app.js"];
 
 //Call install event
 self.addEventListener("install", (e) => {

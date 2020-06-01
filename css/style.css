@@ -216,7 +216,7 @@ header .logo {
 }
 
 #landerImg {
-  width: 70%;
+  max-width: 400px;
   height: auto;
   margin: auto;
 }
@@ -598,6 +598,12 @@ button:focus {
     width: 60px;
     height: 60px;
     font-size: 1.5rem;
+  }
+  #landerImg {
+    display: none;
+  }
+  .section-wrap.landerGrid {
+    grid-template-columns: 100%;
   }
 }
 
