@@ -1,6 +1,7 @@
 {
   "name": "Web Dev Day Vilvoorde",
   "short_name": "WebDevDay",
+  "start_url": "http://webdevday.tk/",
   "icons": [
     {
       "src": "./img/favicon_jobdag_rood_txt_192x192.png",
