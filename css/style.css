@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 :root {
   --bg-color: #e6e6e6;
   --secondary-color: #d3d3d3;
@@ -675,7 +674,6 @@ section:nth-child(even) {
   background-color: var(--secondary-color);
   color: var(--heading-color);
 }
-
 /*Section Lander*/
 .landerGrid {
   display: grid;
