@@ -13,10 +13,10 @@ $("#sunIcon, #moonIcon").on("click", function() {
     console.log($(this).attr("id"));
     if ($(this).attr("id") == "moonIcon") {
         $(":root").attr("data-theme", "dark");
-        $("#logo").addClass("dark");
+        $(".logo").addClass("dark");
     } else {
         $(":root").removeAttr("data-theme");
-        $("#logo").removeClass("dark");
+        $(".logo").removeClass("dark");
     }
     if ($(this).hasClass("selectedThemeIcon") == false) {
         $("#sunIcon, #moonIcon").removeClass("selectedThemeIcon");
@@ -25,27 +25,29 @@ $("#sunIcon, #moonIcon").on("click", function() {
 });
 
 //Smooth Scrolling by Danny
-$('#main-nav a').on('click', function(e) {
-        if (this.hash !== "") {
-            event.preventDefault();
+$("#main-nav a, #indContainer a").on("click", function(e) {
+    if (this.hash !== "") {
+        event.preventDefault();
 
-            const hash = this.hash;
+        const hash = this.hash;
 
-            $('html,body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function() {
+        $("html,body").animate({
+                scrollTop: $(hash).offset().top,
+            },
+            800,
+            function() {
                 window.location.hash = hash;
-            });
-        }
-    })
-    //Cursisten grid door Arno
+            }
+        );
+    }
+});
 
-//Cursisten Section Door Matthias
-// document.getElementById("cursBtn").onclick = function () {
-//   var el = document.getElementById("cursistenContainer");
-//   if (el.style.display != "block") {
-//     el.style.display = "block";
-//   } else {
-//     el.style.display = "none";
-//   }
-// };
+
+//Nav_Collapse door Matthias
+
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("open");
+});
